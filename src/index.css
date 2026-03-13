@@ -15,9 +15,11 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(
-    1200px 600px at 10% 10%,
-    #0e1030,
-    #070817
-  );
+  background:
+    radial-gradient(circle at 10% 10%, rgba(20, 80, 255, 0.18), transparent 35%),
+    radial-gradient(circle at 90% 20%, rgba(0, 200, 255, 0.12), transparent 30%),
+    linear-gradient(180deg, #050816 0%, #070817 45%, #0a0f24 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
